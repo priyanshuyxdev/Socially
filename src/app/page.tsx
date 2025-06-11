@@ -12,19 +12,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="m-4">
-      <SignedOut>
-        <SignInButton>
-          <Button>Sign in</Button>
-        </SignInButton>
-        <SignUpButton>
-          <Button variant={"secondary"}>Sign up</Button>
-        </SignUpButton>
-      </SignedOut>
-      
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-      <ModeToggle/>
+      <h1>home page content</h1>
     </div>
   );
 }
